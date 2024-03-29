@@ -6,6 +6,9 @@ import inquirer from "inquirer";
 // 2) user guessed a num
 // 3) comparision
 
+
+console.log("welcome to number guessing game")
+
 const randomNum = Math.floor(Math.random() * 10 + 1);
 const numGuess = await inquirer.prompt([{
     name: "userguessedNum",
